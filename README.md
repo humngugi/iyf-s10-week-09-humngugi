@@ -1,16 +1,37 @@
-# React + Vite
+# Week 9: React Advanced - WrestleMania 42 Fan Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Author
+- **Name:** Humphrey Ngugi
+- **GitHub:** https://github.com/humngugi
+- **Date:** April 21, 2026
 
-Currently, two official plugins are available:
+## Project Description
+Built a multi-page WrestleMania 42 fan application using advanced React patterns. Features include React Router for navigation between Home, Matches, Results, Highlights, and About pages; API data fetching with custom hooks; responsive wrestling-themed styling; and reusable component library. The app displays match data from a mock API with search, filtering, loading states, and error handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React 18
+- Vite
+- React Router DOM
+- JavaScript (ES6+)
+- CSS3 (Custom Properties + Flexbox/Grid)
+- Mock API with Promise-based data
 
-## React Compiler
+## Features
+- ✅ Multi-page routing with React Router (nested routes)
+- ✅ Dynamic routes (`/matches/:matchId`) with useParams
+- ✅ Custom `useFetch` hook for API data fetching (Lesson 17)
+- ✅ Custom `useLocalStorage` hook for persistence (Lesson 18)
+- ✅ Search & filter functionality for matches
+- ✅ Loading spinners & graceful error handling
+- ✅ Reusable component library (MatchCard, Button, etc.)
+- ✅ Wrestling-themed responsive design (mobile-first)
+- ✅ Professional UI with gold/red color scheme
+- ✅ Tab navigation, modals, and interactive elements
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+```bash
+git clone https://github.com/humngugi/iyf-s10-week-09-humngugi.git
+cd iyf-s10-week-09-humngugi
+npm install
+npm run dev
+# Open http://localhost:5173
